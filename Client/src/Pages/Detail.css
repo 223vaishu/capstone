@@ -1,0 +1,48 @@
+.main-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-heading {
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .sport-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    max-width: 300px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card-title {
+    margin-top: 15px;
+    color: #000000;
+    font-family: "Kadwa", serif;
+  }
+  
+  .card-description {
+    margin-top: 10px;
+    color: #666;
+    text-align: justify;
+    font-family: "Kadwa", serif;
+  }
+  
