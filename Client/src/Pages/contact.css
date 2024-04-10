@@ -1,0 +1,56 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    font-family: "Kadwa", serif;
+}
+
+.contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; 
+    margin-bottom: 40px;
+    
+}
+
+.box:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+.contact-img {
+    width: 100%; 
+    border-radius: 8px;
+    margin-bottom: 10px; 
+}
+
+
+.contact-title {
+    margin-top: 0; 
+    margin-bottom: 10px; 
+    text-align: center;
+    font-family: "Kadwa", serif;
+}
+
+.contact-name,
+.contact-no {
+    margin: 0; 
+    font-size: 14px;
+    font-family: "Kadwa", serif;
+}
