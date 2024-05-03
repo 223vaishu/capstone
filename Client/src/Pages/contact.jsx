@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../Components/Nav";
 import "./contact.css"
-import badminton from "../images/badminton.avif";
+import badminton from "../images/badminton.jpg";
 import basketball from "../images/basketball.jpeg";
 import football from "../images/football.jpeg";
 import cricket from "../images/cricket.jpeg";
@@ -130,5 +130,3 @@ function Contact(){
     )
 }
 export default Contact
-
-

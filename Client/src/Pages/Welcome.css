@@ -1,0 +1,79 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-logo img {
+    width: 200px;
+    margin-top: 10%;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-item {
+    margin-right: 30px;
+    margin-top: 10%;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Kadwa", serif;
+    font-size: 30px;
+    padding: 10px;
+    
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+    background-color:rgb(255, 106, 0) ;
+  }
+  
+  .welcome-container{
+    margin-left: -0.7%;
+  }
+  .Welcome {
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+    width: 60%;
+    margin-top: -40%;
+  }
+  
+  .welcome-text {
+    font-size: 45px;
+    color: #131313;
+    font-family: "Kadwa", serif;
+    margin-top: 15%;
+    text-align: center;
+  }
+  
+  .welcome-update {
+    font-size: 20px;
+    color: #b7b7b7;
+  }
+
+  .learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 106, 0); 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: orange;
+  }
+  

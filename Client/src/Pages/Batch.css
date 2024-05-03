@@ -1,43 +1,27 @@
-/* Batch.css */
 
-.batch-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.Sent{
+    color: rgb(255, 0, 0);
 }
 
-.boxes {
-    background-color: rgba(205, 166, 251, 1);
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-    width: 20%;
-}
-
-.boxes:hover {
-    background-color: rgb(194, 146, 249);
-}
-
-.update1,
-.delete {
-    background-color: #f44336; /* Red */
-    border: none;
-    color: white;
+.explore-button {
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
-    border-radius: 5px;
+    font-family: "Kadwa", serif;
+    margin-top: 16%;
+    margin-bottom: 2%;
+    margin-left: 85%;
 }
 
-.update1:hover,
-.delete:hover {
-    background-color: #d32f2f; 
+.explore-button:hover {
+    background-color: #721302;
+}
+
+.display{
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
