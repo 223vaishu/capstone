@@ -4,6 +4,7 @@ const { isConnected } = require("./config/db.js");
 const cors = require("cors");
 const routes = require('./routes');
 require('dotenv').config(); 
+const Mitsport = require("./models/sport.js")
 
 const app = express();
 
@@ -29,4 +30,14 @@ mongoose.connect(process.env.URI)
 const PORT = process.env.PORT || 3200;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
+});
+
+app.post("/post", async (req, res) => {
+  try {
+    const newSport = await Mitsport.create(req.body);
+    res.json(newSport);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Internal server error" });
+  }
 });
